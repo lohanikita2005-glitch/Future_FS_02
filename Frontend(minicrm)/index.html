@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini CRM - Client Lead Management</title>
+
+  <!-- CSS file link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1>Client Lead Management System</h1>
+
+  <!-- Lead Form -->
+  <div class="form-container">
+    <h2>Add New Lead</h2>
+
+    <form id="leadForm">
+      <input type="text" id="name" placeholder="Client Name" required>
+
+      <input type="email" id="email" placeholder="Email" required>
+
+      <input type="text" id="phone" placeholder="Phone Number" required>
+
+      <button type="submit">Add Lead</button>
+    </form>
+  </div>
+
+  <!-- Leads Table -->
+  <div class="table-container">
+    <h2>Leads List</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody id="leadTable">
+        <!-- JS se data yahan aayega -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- JS file link -->
+  <script src="script.js"></script>
+</body>
+</html>

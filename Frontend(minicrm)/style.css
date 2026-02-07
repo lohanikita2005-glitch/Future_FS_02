@@ -1,0 +1,107 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f4f6f8;
+  padding: 30px;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form Container */
+.form-container {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Form Inputs */
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1e40af;
+}
+
+/* Table Container */
+.table-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Status Dropdown (future use) */
+select {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Delete Button (future use) */
+.delete-btn {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #991b1b;
+}
